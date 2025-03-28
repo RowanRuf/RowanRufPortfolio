@@ -21,7 +21,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 nav ul li a {
@@ -29,7 +29,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     transition: color 0.3s ease; 
 }
 
