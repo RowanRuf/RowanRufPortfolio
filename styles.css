@@ -16,7 +16,7 @@ nav ul {
     list-style-type: none;
     padding: 0;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     margin: 0;
 }
 
@@ -64,36 +64,6 @@ header h1 {
     font-size: 24px;
     font-weight: bold;
     margin-top: 10px;
-}
-
-/* Contact Profile Section */
-.contact-profile {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    text-align: center;
-    gap: 10px;
-}
-
-.contact-profile img {
-    width: 200px; 
-    height: auto;
-}
-
-/* Contact Info Styling */
-.contact-info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; 
-    margin-left: 0;
-    padding-left: 0;
-    text-align: left;
-    gap: 10px; 
-}
-
-.contact-info p {
-    font-size: 18px;
-    line-height: 1.6; 
 }
 
 /* Section Heading Styling */
@@ -189,6 +159,39 @@ footer a:hover {
 }
 
 /* Contact Section Styling */
+
+.contact-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the image */
+    text-align: left; /* Ensures text stays left-aligned */
+    width: 100%;
+}
+
+/* Center the profile picture */
+.profile-img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Left-align the text while keeping it below the image */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align text to the left */
+    text-align: left;
+    width: 100%; /* Prevents text from squeezing */
+    max-width: 400px; /* Adjust to your preferred width */
+    margin-top: 10px; /* Adds spacing between image and text */
+}
+
+.contact-info p {
+    font-size: 18px;
+    line-height: 1.6; 
+}
+
 .contact-section {
     text-align: center;
     padding: 40px 20px;
@@ -209,7 +212,7 @@ footer a:hover {
     display: inline-block;
     text-align: left;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 600px;
+    max-width: 300px;
     margin: auto;
 }
 
