@@ -1,5 +1,6 @@
 body {
-    font-family: 'Montserrat', Arial, sans-serif; /* Use Montserrat for body text */    margin: 0;
+    font-family: 'Montserrat', Arial, sans-serif; 
+    margin: 0;
     padding: 0;
     background-color: #333;
     color: white; 
@@ -8,14 +9,15 @@ body {
 
 /* Navigation Styles */
 nav {
-    position: fixed; /* Make it fixed at the top */
-    top: 0; /* Align it to the top of the screen */
-    left: 0; /* Align it to the left edge */
-    width: 100%; /* Make it span the full width of the screen */
-    z-index: 1000; /* Ensure it stays on top of other content */
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
     background-color: black;
     padding: 0.8vw;
-    font-family: 'Montserrat', sans-serif; /* Use Montserrat for navigation */}
+    font-family: 'Montserrat', sans-serif; 
+}
 
 nav ul {
     list-style-type: none;
@@ -50,7 +52,8 @@ nav ul li a:hover {
 /* Header Styles */
 header h1 {
     padding-top: 50px;
-    font-family: 'Poppins', sans-serif; /* Use Poppins for header */    color: #1e5bbd;
+    font-family: 'Poppins', sans-serif; 
+    color: #1e5bbd;
     font-size: 36px;
     margin-top: 20px;
 }
@@ -78,7 +81,7 @@ header h1 {
 
 /* Section Heading Styling */
 section h2 {
-    font-family: 'Poppins', sans-serif; /* Use Poppins for section headings */
+    font-family: 'Poppins', sans-serif;
     font-size: 36px;
     color: #1e5bbd; 
     margin-bottom: 20px; 
@@ -109,14 +112,14 @@ section h2 {
 .marquee p {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    font-size: 5vw; /* Responsive font size */
+    font-size: 5vw;
     display: inline-block;
-    padding-right: 5vw; /* Responsive spacing between repeats */
+    padding-right: 5vw;
 }
 
 /* Section Paragraph Styling */
 section p {
-    font-family: 'Montserrat', sans-serif; /* Use Montserrat for paragraphs */
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     width: 70%; 
     margin: 20px auto; 
@@ -127,12 +130,12 @@ section p {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px; /* Adjust the gap between logos */
+    gap: 20px; 
     padding-bottom: 2rem;
 }
 
 .skill {
-    width: 80px; /* Size of each logo */
+    width: 80px;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -149,13 +152,13 @@ section p {
 
 /* Hover effect */
 .skill:hover {
-    transform: scale(1.2); /* Scale up the logo */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+    transform: scale(1.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .skill:hover .skill-logo {
-    transform: rotate(15deg); /* Rotate logo on hover */
-    filter: brightness(1.2); /* Make the logo brighter */
+    transform: rotate(15deg);
+    filter: brightness(1.2);
 }
 
 /* Project Section Styling */
@@ -188,7 +191,8 @@ section p {
 }
 
 .project h3 {
-    font-family: 'Poppins', sans-serif; /* Use Poppins for project titles */    color: #1e5bbd; 
+    font-family: 'Poppins', sans-serif;   
+    color: #1e5bbd; 
     font-size: 24px;
     margin-top: 20px;
 }
@@ -205,7 +209,7 @@ footer {
 }
 
 footer h2 {
-    font-family: 'Poppins', sans-serif; /* Use Poppins for footer header */
+    font-family: 'Poppins', sans-serif;
     color: #1e5bbd; 
     font-weight: bold;
     margin-bottom: 20px;
@@ -238,12 +242,11 @@ footer a:hover {
 }
 
 /* Contact Section Styling */
-
 .contact-profile {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centers the image */
-    text-align: left; /* Ensures text stays left-aligned */
+    align-items: center;
+    text-align: left;
     width: 100%;
 }
 
@@ -255,15 +258,14 @@ footer a:hover {
     margin: 0 auto;
 }
 
-/* Left-align the text while keeping it below the image */
 .contact-info {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align text to the left */
+    align-items: flex-start;
     text-align: left;
-    width: 100%; /* Prevents text from squeezing */
-    max-width: 400px; /* Adjust to your preferred width */
-    margin-top: 10px; /* Adds spacing between image and text */
+    width: 100%; 
+    max-width: 400px;
+    margin-top: 10px;
 }
 
 .contact-info p {
@@ -278,7 +280,7 @@ footer a:hover {
 }
 
 .contact-section h2 {
-    font-family: 'Poppins', sans-serif; /* Use Poppins for contact section header */
+    font-family: 'Poppins', sans-serif;
     font-size: 36px;
     color: #1e5bbd;
     margin-bottom: 20px;
@@ -304,14 +306,14 @@ footer a:hover {
 }
 
 .contact-profile h3 {
-    font-family: 'Poppins', sans-serif; /* Use Poppins for contact profile header */
+    font-family: 'Poppins', sans-serif;
     font-size: 28px;
     color: white;
     margin-bottom: 10px;
 }
 
 .contact-profile p {
-    font-family: 'Montserrat', sans-serif; /* Use Montserrat for contact profile text */
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     color: white;
     margin: 5px 0;
@@ -328,7 +330,6 @@ footer a:hover {
     color: #1e5bbd;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .contact-profile {
         width: 90%;
