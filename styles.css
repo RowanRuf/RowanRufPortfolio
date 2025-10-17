@@ -190,6 +190,25 @@ section p {
     box-shadow: 0 4px 20px rgba(49, 142, 255, 0.5); 
 }
 
+.project-button {
+    background-color: #1e5bbd;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.project-button:hover {
+    background-color: lightskyblue;
+    transform: scale(1.05);
+}
+
 .project h3 {
     font-family: 'Poppins', sans-serif;   
     color: #1e5bbd; 
